@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+header {
+    background: linear-gradient(90deg, rgb(16 16 16) 8%, rgb(37 37 38) 36%, rgb(139 139 139) 100%);
+    padding: 20px;
+}
+.logo-container {
+    display: inline-block;
+}
+.logo-container img {
+    width: 120px;
+}
+.nav-container {
+    text-align: right;
+    padding-top: 47px;
+    float: right;
+}
+nav.header-navigation {
+    margin-top: 35px;
+}
+nav.header-navigation a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 13px;
+    color: black;
+}
+p {
+    font-size: 21px;
+    line-height: 35px;
+}
+span {
+    display: block;
+}
+/* BANNER STYLES */
+.banner h1 {
+    text-align: center;
+    font-size: 50px;
+    color: darkgrey;
+    padding-top: 25px;
+    font-family: inherit;
+}
+.banner-section {
+    height: 109vh;
+    background: gray url('../images/banners.jpg') no-repeat;
+    background-size: cover;
+}
+/* CONTACT STYLES */
+section#contact h2 {
+    text-align: left;
+    padding-top: 60px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+section#contact {
+    background: url('../images/contacts.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    height: 920px;
+    color: whitesmoke;
+}
+.form-container {
+    text-align: right;
+    width: 95%;
+}
+input[type="text"]:focus-visible, textarea:focus-visible {
+    outline: none;
+}
+
+input[type="text"] {
+    width: 705px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border-bottom-color: whitesmoke;
+}
+form {
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 60px;
+}
+textarea#message {
+    border: 1px solid gray;
+    border-radius: 9px;
+}
+form label {
+    display: block;
+    text-align: left;
+}
+
+input[type="button"]:hover {
+    background: rgb(196, 196, 196);
+}
+
+input[type="button"] {
+    margin-top: 20px;
+    font-size: 11px;
+    padding: 15px 21px;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    width: 110px;
+    text-transform: uppercase;
+    float: right;
+}
+/* QOUTES */
+section.qoute {
+    background: dimgray;
+    padding: 65px 50px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}

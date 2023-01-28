@@ -1,0 +1,95 @@
+/*Google fonts - Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+header {
+    background: linear-gradient(90deg, rgb(16 16 16) 8%, rgb(37 37 38) 36%, rgb(139 139 139) 100%);
+    padding: 20px;
+}
+.logo-container {
+    display: inline-block;
+}
+.logo-container img {
+    width: 120px;
+}
+.nav-container {
+    text-align: right;
+    padding-top: 47px;
+    float: right;
+}
+nav.header-navigation {
+    margin-top: 35px;
+}
+nav.header-navigation a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 13px;
+    color: black;
+}
+p {
+    font-size: 21px;
+    line-height: 35px;
+}
+span {
+    display: block;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 27px;
+}
+/* BANNER STYLES */
+.banner h1 {
+    text-align: center;
+    font-size: 50px;
+    color: darkgrey;
+    padding-top: 25px;
+    font-family: inherit;
+}
+.banner-section {
+    height: 109vh;
+    background: gray url('../images/banners.jpg') no-repeat;
+    background-size: cover;
+}
+/* About Styles */
+section.about-section {
+    padding: 30px;
+}
+.about-section {
+    background-color: #1e1e1e;
+}
+.about-section h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: inherit;
+    color: whitesmoke;
+}
+.about-left {
+    width: 50%;
+    display: inline-block;
+}
+.about-right {
+    float: right;
+    text-align: left;
+    width: 49%;
+    font-size: 20px;
+    color: whitesmoke;
+}
+/* QOUTES */
+section.qoute {
+    background: #000000;
+    padding: 65px 50px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
